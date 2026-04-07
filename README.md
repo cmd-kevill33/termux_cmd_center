@@ -29,6 +29,11 @@ A comprehensive cybersecurity toolkit for Termux Android environment, designed f
 
 ## 📦 Installation
 
+### Start Here
+If you are new to Termux or want a one-file beginner setup guide, read:
+
+- `START_HERE.md`
+
 ### Full User Guide
 For complete Termux setup, usage examples, API configuration, and detailed module instructions, read the full user guide:
 
