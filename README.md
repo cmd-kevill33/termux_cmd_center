@@ -29,10 +29,15 @@ A comprehensive cybersecurity toolkit for Termux Android environment, designed f
 
 ## 📦 Installation
 
+### Full User Guide
+For complete Termux setup, usage examples, API configuration, and detailed module instructions, read the full user guide:
+
+- `USER_GUIDE.md`
+
 ### Automated Setup
 ```bash
-git clone https://github.com/yourusername/termux-cmd-center.git
-cd termux-cmd-center
+git clone https://github.com/cmd-kevill33/termux_cmd_center.git
+cd termux_cmd_center
 chmod +x setup.sh
 ./setup.sh
 ```
@@ -40,10 +45,10 @@ chmod +x setup.sh
 ### Manual Installation
 ```bash
 # Install Python dependencies
-pip install -r requirements.txt
+pip install --user -r requirements.txt
 
-# Install security tools
-pkg install nmap sqlmap nikto aircrack-ng john hashcat metasploit
+# Install required Termux packages
+pkg install nmap sqlmap nikto aircrack-ng john hashcat metasploit termux-api
 
 # Make executable
 chmod +x main.py
